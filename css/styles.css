@@ -1,0 +1,433 @@
+* {
+
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.5em;
+	letter-spacing: 1px;
+
+}
+
+
+body {
+
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	color: #0f0f0f;
+
+}
+
+header {
+
+	padding: 25px;
+
+}
+
+h1 {
+
+	margin: 0; 
+	padding: 0;
+
+}
+
+a {
+
+	text-decoration: none;
+	color: #505661; /* #395068; /* #a9bcd0 */
+	font-weight: 700;
+
+}
+
+a:visited {
+
+	color: #6d8daf;
+	font-weight: 700;
+
+}
+
+
+main p {
+
+	width: 75%; /* 85% original */
+	padding-left: 100px;
+	text-align: left;
+	box-sizing: border-box;
+
+}
+
+.about-me-page p {
+
+	padding-left: 50px;
+
+}
+
+
+h1, h2, h3 {
+
+	color: #0f0f0f;
+
+}
+
+h1, h2, h3, h4 {
+
+	font-family: 'Arial', sans-serif;
+	font-weight: 700;
+
+}
+
+h1 {
+
+	font-size: 50px;
+	color: white;
+
+}
+
+h2 {
+
+	font-size: 25.63px;
+
+}
+
+h3 {
+
+	font-size: 22.78px;
+
+}
+
+h4 {
+
+	font-size: 20.25px;
+	color: #373f51;
+	margin-left: 20px;
+
+}
+
+header {
+
+	text-align: center;
+	
+}
+
+nav {
+
+	height: 1.5em;
+	padding: 1em;
+
+}
+
+nav a {
+
+	color: #373f51;
+	padding: 1em;
+	font-size: 1.25em;
+	text-decoration: none;
+
+}
+
+nav a:hover {
+
+	color: white;
+	background-color: #373f51;
+
+}
+
+.left {
+
+	float: left;
+
+}
+
+.left:after {
+
+	content:"";
+	display: table;
+	clear: both;
+
+}
+
+.right {
+
+	float: right;
+
+}
+
+.right:after {
+
+	content:"";
+	display: table;
+	clear: both;
+
+}
+
+.parent-container {
+
+	text-align: center;
+
+}
+
+.social-media-name-icon {
+
+	width: 50%;
+	display: inline-block;
+
+}
+
+.about-me-page {
+
+	padding: 25px 0;
+
+}
+
+.qualifications-page {
+
+	padding-bottom: 25px;
+
+}
+
+.about-me-page h2 {
+
+	padding-left: 50px;
+
+}
+
+.qualifications-page h2 {
+
+	padding-left: 50px;
+
+}
+
+.qualifications-page h3 {
+
+	padding-left: 50px;
+
+}
+
+.qualifications-page h4 {
+
+	padding-left: 50px;
+
+}
+
+.home-page {
+
+	width: 100%;
+	height: 100%;
+	padding: 15em 1em;
+	text-align: center;
+	box-sizing: border-box;
+	background-color: #373f51;
+
+}
+
+.nav-items {
+
+	display: inline-block;
+
+}
+
+footer {
+
+	background-color: #373f51;
+	padding: 0.5em 0;
+	color: white;
+
+}
+
+.contact-information-page h3 {
+
+	color: white;
+
+}
+
+.proficiencies p {
+
+	text-align: center;
+	width: 100%;
+	padding: 0;
+
+}
+
+.qualifications-sections {
+
+	padding-bottom: 15px;
+
+}
+
+@media screen and (max-width: 992px) {
+
+	h1 {
+
+		font-size: 35px;
+
+	}
+
+	header {
+
+		padding-top: 25px;
+		padding-bottom: 25px;
+		text-align: center;
+
+	}
+
+	nav {
+
+		height: 1.5em;
+		padding: 0em;
+
+	}
+
+	nav a {
+
+		color: #373f51;
+		padding: 0.5em;
+		font-size: 1em; /* 0.9 em */
+		text-decoration: none;
+
+	}
+
+	.about-me-page h2 {
+
+		padding-left: 20px;
+
+	}
+
+	main p {
+
+		width: 90%;
+		padding-left: 20px;
+		text-align: left;
+		box-sizing: border-box;
+
+	}
+
+	.qualifications-page h2 {
+
+		padding-left: 25px;
+
+	}
+
+	.qualifications-page h3 {
+
+		padding-left: 25px;
+
+	}
+
+	.qualifications-page h4 {
+
+		padding-left: 25px;
+
+	}
+
+	.qualifications-page p {
+
+		padding-left: 75px;
+
+	}
+
+	footer h3 {
+
+		font-size: 22px;
+
+	}
+
+	footer p {
+
+		font-size: 16px;
+
+	}
+
+	.social-media-name-icon {
+
+		width: 100%;
+
+	}
+
+}
+
+@media screen and (max-width: 648px) { /* (max-width: 608px) { */
+
+	.nav-items-case {
+
+		width: 70%;
+		float: left;
+
+	}
+
+	.case-header {
+
+		padding-top: 10px;
+		padding-bottom: 110px;
+		text-align: left;
+
+	}
+
+}
+
+@media screen and (max-width: 528px) { /* (max-width: 503px) { */
+
+	.nav-items {
+
+		width: 70%;
+
+	}
+
+	.main-header { /* header { */
+
+		padding-top: 10px;
+		padding-bottom: 80px;
+		text-align: left;
+
+	}
+
+	.main-h1 h1 { /* h1 */
+
+		padding-bottom: 10px;
+
+	}
+
+	.main-footer p { /* footer p { */
+
+		font-size: 15px;
+
+	}
+
+}
+
+@media print { /* Implemented - however does not work; professor also does not know why; kept to show that I have done the required work but for some unknown reason it does not work. */
+
+	header {
+
+		display: none;
+
+	}
+
+	footer {
+
+		display: none;
+
+	}
+
+	body { 
+
+		font-size: 12px;
+
+	}
+
+	h2 { 
+
+		font-size: 16px;
+
+	}
+
+	h3 {
+
+		font-size: 15px;
+	
+	}
+
+	h4 {
+
+		font-size: 14px;
+
+	}
+
+}

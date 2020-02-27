@@ -1,7 +1,219 @@
-<!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+<!doctype html>
+
+<html lang="en">
+
+	<head>
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-137981466-1"></script>
+		<script>
+	 		window.dataLayer = window.dataLayer || [];
+	  		function gtag(){dataLayer.push(arguments);}
+	  		gtag('js', new Date());
+
+	  		gtag('config', 'UA-137981466-1');
+		</script>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Personal website and portfolio of Aleksandar Kostic, a CS student at Western University.">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
+		<link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="images/favicon-96x96.png" sizes="96x96">
+		<title>Aleksandar Kostic</title>
+
+		<!-- OPEN GRAPH -->
+		<meta property="og:title" content="Aleksandar Kostic">
+		<meta property="og:description" content="Personal website and portfolio of Aleksandar Kostic, a CS student at Western University.">
+		<meta property="og:type" content="website">
+		<meta property="og:image" content="http://iepicsaurus.github.io/images/aleksandar.jpg">
+		<meta property="og:url" content="http://iepicsaurus.github.io/index.html">
+
+	</head>
+
+	<body>
+
+		<header class="main-header">
+
+			<!-- NAVIGATION -->
+			<nav>
+
+				<span class="nav-items">
+				<a href="#home">Home</a>
+				</span>
+
+				<span class="nav-items">
+				<a href="#about-me">About Me</a>
+				</span>
+
+				<span class="nav-items">
+				<a href="#qualifications">Qualifications</a>
+				</span>
+
+				<span class="nav-items">
+				<a href="#contact-information">Contact Information</a>
+				</span>				
+
+			</nav>
+
+		</header>
+
+		<main>
+
+			<!-- HOME PAGE -->
+			<div id="home" class="home-page">
+				
+				<h1 class="main-h1">ALEKSANDAR KOSTIC</h1>
+
+				<div class="social-media-icons">
+
+					<a href="https://github.com/iEpicsaurus">
+						<img src="images/github-icon.png" alt="“Small GitHub logo: white octocat on a black background">
+					</a>
+
+					<a href="resume.pdf">
+						<img src="images/resume-icon.png" alt="Small grey and white document icon">
+					</a>
+
+					<a href="mailto:akostic2@uwo.ca">
+						<img src="images/email-icon.png" alt="Small blue and white envelope icon">
+					</a>
+
+					<a href="https://www.linkedin.com/in/aleksandar-kostic-747730183/">
+						<img src="images/linkedin-icon.png" alt="Small LinkedIn logo: lowercase white in on a blue background">
+					</a>
+
+				</div>			
+
+			</div>
+
+			<!-- ABOUT ME PAGE -->
+			<div id="about-me" class="about-me-page">
+
+				<h2>About Me</h2>
+
+				<p id="grey">System.out.println(“Hello World”);</p>
+
+				<p>Welcome to my personal website and portfolio! My name is Aleksandar Kostic and I am a computer science student at Western University in Ontario, Canada. I am an avid gamer, enjoying games such as League of Legends. Gaming introduced me to programming at an early age and ultimately laid the foundations for my decision to complete a computer science degree. I am proficient in several languages: Java, Python, C/C++, Ruby, and Prolog. Furthermore, I have a deep understanding of the development process, design, and architecture. I am currently learning assembly; specifically, ARM.</p> 
+
+				<p>This website has been created to meet others in the industry, regardless of skill level, and to showcase my qualifications and work for potential recruiters. Feel free to contact me if you would like to discuss the industry, our work, or with any questions or concerns!</p>
+
+			</div>
+
+			<!-- QUALIFICATIONS PAGE -->
+			<div id="qualifications" class="qualifications-page">
+
+				<div class="qualifications-heading">
+
+					<a href="resume.pdf">
+						<h2>Qualifications</h2>
+					</a>
+
+				</div>
+
+				<div class="qualifications-sections">
+
+					<h3>Proficiencies</h3> 
+
+					<h4>Proficient</h4>
+					<p>Java, Python, C/C++</p>
+
+					<h4>Competent</h4>
+					<p>Assembly (ARM), Architecture and Design, Databases
+
+					<h4>Advanced Beginner</h4>
+					<p>Ruby, Prolog, Erlang</p>
+
+				</div>
+
+				<div class="right-doubles">
+
+					<div class="qualifications-sections">
+
+						<h3>Education</h3>
+
+						<h4>Western University | 2020</h4>
+
+						<p>Bachelor of Science | Honors Specialization in Computer Science</p>
+
+					</div>
+
+					<div class="qualifications-sections">
+
+						<h3>Work & Volunteer Experience</h3>
+
+						<h4>Hack Western | 2019</h4>
+
+						<p>Involved in the planning, organization, and execution of Hack Western 6. This involved logistics, sponsorships, and developing the volunteer program. Refined teamwork and leadership skills throughout the event.</p>
+
+					</div>
+
+					<div class="qualifications-sections">
+
+						<h3>Projects</h3>
+						
+						<h4>Case Study | <a href=case-study.html>Hack Western - An Evaluation</a></h4>
+
+						<p>An in-depth evaluation of Hack Western 5: highlights my observations and recommendations that could be implemented in future Hackathons to make the experience better for all attendees.</p>
+
+						<h4>ARM Assembly | <a href="https://github.com/iEpicsaurus/Assembly">Verification of Universal Product Codes</a></h4>
+
+						<p>This optimized ARM program determines if a string of 12 ASCII encoded digits stored in memory is a valid UPC or not.</p>
+
+						<h4>C Language | <a href="https://github.com/iEpicsaurus/C">Arithmetic Calculator</a></h4>
+
+						<p>This optimized program evaluates arithmetic expressions; implemented in a recursive manner</p>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</main>
+
+		<footer class="main-footer">
+
+			<div class="parent-container">
+
+				<div id="contact-information" class="contact-information-page">
+
+					<div class="social-media-name-icon">
+							
+						<h3>Aleksandar Kostic</h3>
+
+						<div class="social-media-icons">
+
+							<a href="https://github.com/iEpicsaurus">
+								<img src="images/github-icon.png" alt="“Small GitHub logo: white octocat on a black background">
+							</a>
+
+							<a href="resume.pdf">
+								<img src="images/resume-icon.png" alt="Small grey and white document icon">
+							</a>
+
+							<a href="mailto:akostic2@uwo.ca">
+								<img src="images/email-icon.png" alt="Small blue and white envelope icon">
+							</a>
+
+							<a href="https://www.linkedin.com/in/aleksandar-kostic-747730183/">
+								<img src="images/linkedin-icon.png" alt="Small LinkedIn logo: lowercase white in on a blue background">
+							</a>
+
+						</div>	
+
+					</div>			
+
+					<p>Copyright © 2020 Aleksandar Kostic | All Rights Reserved</p>
+
+				</div>
+
+			</div>
+
+		</footer>
+
+	</body>
+
 </html>
