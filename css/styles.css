@@ -132,6 +132,18 @@ nav a:hover {
 
 }
 
+ul {
+
+	padding-left: 5.2em;
+
+}
+
+.qualifications-page ul {
+
+	padding-left: 6.3em;
+
+}
+
 .left {
 
 	float: left;
@@ -179,11 +191,11 @@ nav a:hover {
 
 }
 
-.qualifications-page {
+/* .qualifications-page {
 
-	padding-bottom: 25px;
+	padding-bottom: 0px;
 
-}
+} */
 
 .about-me-page h2 {
 
@@ -250,7 +262,7 @@ footer {
 
 .qualifications-sections {
 
-	padding-bottom: 15px;
+	padding-bottom: 30px;
 
 }
 
@@ -394,7 +406,7 @@ footer {
 
 }
 
-@media print { /* Implemented - however does not work; professor also does not know why; kept to show that I have done the required work but for some unknown reason it does not work. */
+@media print { 
 
 	header {
 
