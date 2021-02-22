@@ -372,6 +372,12 @@ section#projects a {
 
 @media only screen and (max-width: 489px) {
 
+	* {
+
+		font-size: 13px;
+
+	}
+
 	.nav {
 
 		font-size: 11px;
@@ -391,6 +397,100 @@ section#projects a {
 	
 	}
 
+}
 
+@media only screen and (max-width: 449px) {
+
+	.nav {
+
+		font-size: 8px;
+	
+	}
+	
+	
+	.nav ul {
+	
+		font-size: 8px;
+	
+	}
+	
+	.nav ul li {
+	
+		font-size: 8px;
+	
+	}
+
+	.left p {
+
+		font-size: 15px;
+
+	}
+
+	.right p {
+
+		font-size: 15px;
+
+	}
+
+}
+
+@media only screen and (max-height: 1015px) {
+
+	.project-items {
+
+		margin: 0 0 0.4em 0;
+		padding: 0;
+		font-size: 16px;
+		width: 100%;
+
+	}
+
+}
+
+@media only screen and (max-height: 960px){
+
+	section h2 {
+
+		font-size: 20px;
+
+	}
+
+	#about-me {
+
+		font-size: 16px;
+
+	}
+
+	#projects {
+
+		font-size: 16px;
+
+	}
+
+	section h3 {
+
+		font-size: 20px;
+
+	}
+
+}
+
+@media only screen and (max-height: 800px){
+
+	section h4 {
+
+		font-size: 16px;
+
+	}
+
+}
+
+@media only screen and (max-height: 800px){
+
+	section h4 {
+
+		font-size: 16px;
+
+	}
 
 }
