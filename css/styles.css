@@ -308,156 +308,8 @@ section#projects a {
 
 }
 
-@media only screen and (max-width: 708px) {
+@media only screen and (max-height: 1050px) {
 
-
-	.nav {
-
-		font-size: 14px;
-	
-	}
-	
-	
-	.nav ul {
-	
-		font-size: 14px;
-	
-	}
-	
-	.nav ul li {
-	
-		font-size: 14px;
-	
-	}
-
-	.project-items {
-
-		width: 80vw;
-	
-	}
-
-
-}
-
-@media only screen and (max-width: 592px) {
-
-
-	.nav {
-
-		font-size: 12px;
-	
-	}
-	
-	
-	.nav ul {
-	
-		font-size: 12px;
-	
-	}
-	
-	.nav ul li {
-	
-		font-size: 12px;
-	
-	}
-
-	.container-about p {
-
-		font-size: 18px;
-	
-	}
-
-
-}
-
-@media only screen and (max-width: 489px) {
-
-	* {
-
-		font-size: 13px;
-
-	}
-
-	.nav {
-
-		font-size: 8px;
-	
-	}
-	
-	
-	.nav ul {
-	
-		font-size: 8px;
-	
-	}
-	
-	.nav ul li {
-	
-		font-size: 8px;
-	
-	}
-
-	.left p {
-
-		font-size: 15px;
-
-	}
-
-	.right p {
-
-		font-size: 15px;
-
-	}
-
-
-}
-
-@media only screen and (max-width: 449px) {
-
-	.nav {
-
-		font-size: 8px;
-	
-	}
-	
-	
-	.nav ul {
-	
-		font-size: 8px;
-	
-	}
-	
-	.nav ul li {
-	
-		font-size: 8px;
-	
-	}
-
-	.left p {
-
-		font-size: 15px;
-
-	}
-
-	.right p {
-
-		font-size: 15px;
-
-	}
-
-}
-
-@media only screen and (max-width: 386px) {
-
-	section h1 {
-
-		font-size: 40px;
-		
-	}
-
-}
-
-@media (max-height: 920px) and (max-width: 1138px){
 
 	.project-items {
 
@@ -506,14 +358,119 @@ section#projects a {
 	
 	}
 
+	.nav {
+
+		font-size: 14px;
+	
+	}
+	
+	
+	.nav ul {
+	
+		font-size: 14px;
+	
+	}
+	
+	.nav ul li {
+	
+		font-size: 14px;
+	
+	}
+
 }
 
-@media only screen and (max-height: 800px){
+@media only screen and (max-width: 708px) {
+
+	.nav {
+
+		font-size: 12px;
+	
+	}
+	
+	
+	.nav ul {
+	
+		font-size: 12px;
+	
+	}
+	
+	.nav ul li {
+	
+		font-size: 12px;
+	
+	}
+
+	section h2 h3 {
+
+		font-size: 18px;
+
+	} 
+
+
+}
+
+@media only screen and (max-width: 600px) {
+
+	.nav {
+
+		font-size: 8px;
+	
+	}
+	
+	
+	.nav ul {
+	
+		font-size: 8px;
+	
+	}
+	
+	.nav ul li {
+	
+		font-size: 8px;
+	
+	}
+
+	.left p {
+
+		font-size: 15px;
+
+	}
+
+	.right p {
+
+		font-size: 15px;
+
+	}
+	
+	section h1 {
+
+		font-size: 40px;
+
+	}
+
+	* {
+
+		font-size: 12px;
+
+	}
+
+	section h2 {
+
+		font-size: 12px;
+		margin-top: 12px;
+
+	}
+
+	section h3 {
+
+		font-size: 12px;
+	}
 
 	section h4 {
 
-		font-size: 16px;
+		font-size: 12px;
 
 	}
+
 
 }
